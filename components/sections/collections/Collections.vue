@@ -1,8 +1,8 @@
 <template>
   <div class="mt-0 md:my-12 space-y-6 relative">
     <h2 class="text-neutral-800 font-bold text-xl">Our Collections</h2>
-    <div class="xl:flex justify-between xl:items-center overflow-x-auto">
-      <ul class="flex space-x-4">
+    <div class="xl:flex justify-between xl:items-center">
+      <ul class="flex space-x-4 overflow-x-auto scrollbar-hide">
         <li
           v-for="category in categories"
           :key="category"
@@ -65,3 +65,14 @@ const getCategoryClasses = (category) => {
   ];
 };
 </script>
+
+<style scoped>
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>
