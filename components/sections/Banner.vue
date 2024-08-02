@@ -4,7 +4,7 @@
       class="text-left transform transition-transform duration-1000 ease-in-out"
     >
       <h1
-        class="text-6xl leading-snug xl:leading-none md:text-9xl xl:text-[120px] leading-none font-regular"
+        class="text-5xl leading-snug xl:leading-none md:text-9xl xl:text-[120px] leading-none font-regular"
       >
         See the NFT new world
       </h1>

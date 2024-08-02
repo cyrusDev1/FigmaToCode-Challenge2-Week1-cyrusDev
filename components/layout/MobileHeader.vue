@@ -29,8 +29,8 @@
             <img src="~/assets/img/icons/close.svg" alt="" />
           </div>
         </div>
-        <div class="mt-20">
-          <ul class="space-y-8">
+        <div class="mt-12">
+          <ul class="space-y-6">
             <li>
               <Link
                 to="/"
@@ -68,7 +68,7 @@
             </li>
           </ul>
         </div>
-        <div class="mt-16 flex justify-center space-x-5 items-center">
+        <div class="mt-8 flex justify-center space-x-5 items-center">
           <div class="border-r-2 border-neutral-900 py-1 px-6">
             <Link
               to="/"
