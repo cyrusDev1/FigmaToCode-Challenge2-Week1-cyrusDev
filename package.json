@@ -12,6 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "gsap": "^3.12.5",
     "nuxt": "^3.12.4",
     "vue": "latest"
   },
