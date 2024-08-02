@@ -20,6 +20,12 @@
 import Header from '~/components/layout/Header.vue';
 import MobileHeader from '~/components/layout/MobileHeader.vue';
 import Footer from '~/components/layout/Footer.vue';
+
+import { useHead } from 'nuxt/app';
+
+useHead({
+  title: 'Digit-NFT',
+});
 </script>
 
 <style scoped></style>
