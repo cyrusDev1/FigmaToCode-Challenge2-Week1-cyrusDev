@@ -26,7 +26,9 @@
       </div>
     </div>
 
-    <div class="pt-8 transform transition-transform duration-1000 ease-in-out">
+    <div
+      class="overflow-x-auto xl:overflow-x-visible scrollbar-hide pt-8 transform transition-transform duration-1000 ease-in-out"
+    >
       <img
         class="absolute w-1/3 md:w-1/6 xl:w-1/3 left-1/2 md:left-[310px] xl:left-1"
         ref="imageRef"
@@ -34,7 +36,7 @@
         alt=""
       />
       <div
-        class="pl-4 flex space-x-8 xl:space-x-4 md:justify-center xl:justify-end overflow-hidden xl:overflow-visible pt-8 pb-20 md:px-10 xl:px-0 xl:pb-0 md:pb-24"
+        class="pl-4 flex space-x-8 xl:space-x-4 md:justify-center xl:justify-end pt-8 pb-20 md:px-10 xl:px-0 xl:pb-0 md:pb-24"
       >
         <img
           class="w-2/3 md:w-1/3 top-16 xl:relative xl:w-2/3"

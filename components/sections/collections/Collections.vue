@@ -66,7 +66,7 @@ const getCategoryClasses = (category) => {
 };
 </script>
 
-<style scoped>
+<style>
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
